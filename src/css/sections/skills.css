@@ -1,0 +1,39 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.skills .container .skills-title h2{
+    font-size: var(--font-extra-large);
+    color: var(--color-three);
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.skills .container .informacoes{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    width: 350px;
+}
+
+.skills .container .informacoes i{
+    font-size: 100px;
+    color: var(--color-three);
+    margin: 0px 80px;
+}
+
+.skills .container .informacoes h3{
+    color: var(--color-two);
+    font-size: var(--font-large);
+}
+
+.skills .container .informacoes p{
+    color: var(--color-three);
+    font-size: var(--font-standart);
+}

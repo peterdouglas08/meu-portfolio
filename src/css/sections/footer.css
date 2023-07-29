@@ -1,0 +1,27 @@
+.footer{
+    background-color: var(--color-two);
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+.footer .container h2{
+    color: var(--color-one);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer .container .social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container .social-media a{
+    color: #bd9f32;
+}
+
+.footer .container .social-media a:hover{
+    color: var(--color-one);
+    transform: scale(1.25);
+}

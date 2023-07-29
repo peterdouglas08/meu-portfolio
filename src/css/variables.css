@@ -1,0 +1,19 @@
+:root{
+    --color-one: #000000;
+    --color-two: #F2CB3F;
+    --color-three: #ffffff;
+    --color-four: #DCDCDE;
+    --color-five: #4D4C4E;
+}
+
+:root{
+    --font-standart: 1.5rem;
+    --font-small: 1rem;
+    --font-medium: 1.8rem;
+    --font-large: 3rem;
+    --font-extra-large: 4.5rem;
+}
+
+:root{
+    --font-family-1: 'Kanit', sans-serif;
+}

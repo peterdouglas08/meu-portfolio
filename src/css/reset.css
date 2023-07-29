@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+body{
+    background-image: url(/src/images/abstrato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: midnightblue;
+    background-blend-mode: multiply;
+}
