@@ -10,19 +10,8 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Scroolbar */
-
-/* ::-webkit-scrollbar{
-    width: 15px;
-}
-
-::-webkit-scrollbar-thumb{
-    width: 15px;
-    background-color: var(--color-five);
-} */
-
 .section{
-    padding: 10rem 0 10rem;
+    padding: 3rem 0 10rem;
 }
 
 .container{
@@ -48,10 +37,3 @@ html{
     border-radius: 50%;
     transition: all 0.3s ease-out;
 }
-
-
-/* .social-media a:hover{
-    transform: translateY(-7px);
-    font-size: 4rem;
-    transition: all .3s ease;
-} */
