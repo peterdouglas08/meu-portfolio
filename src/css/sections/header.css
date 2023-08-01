@@ -9,7 +9,6 @@
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .intro .logo img{
@@ -114,10 +113,13 @@
     background-color: var(--color-two);
 }
 
+.intro .container .menu-principal .list-item li:active{
+    color: var(--color-four);
+}
 
 
 .intro .container .social-media a{
-    color: var(--color-five);
+    color: #888888;
 }
 
 .intro .container .social-media a:hover{
@@ -125,6 +127,19 @@
     transform: scale(1.25);
 }
 
+.intro .carrossel{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.intro .carrossel .button{
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color-three);
+}
 
 /* RESPONSIVE */
 

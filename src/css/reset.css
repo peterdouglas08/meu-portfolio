@@ -20,5 +20,5 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: midnightblue;
-    background-blend-mode: multiply;
+    background-blend-mode: darken;
 }

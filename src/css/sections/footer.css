@@ -25,3 +25,8 @@
     color: var(--color-one);
     transform: scale(1.25);
 }
+
+.footer .container p{
+    font-size: var(--font-standart);
+    margin-top: 20px;
+}
