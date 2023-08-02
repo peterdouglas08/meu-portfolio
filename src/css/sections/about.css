@@ -22,8 +22,8 @@
 .about .about-img .photo img{
     min-width: 140%;
     padding-top: 10px;
-    /* border: 2px solid var(--color-four); */
-    border-radius: 50%;
+    border: 3px solid var(--color-five);
+    border-radius: 15px;
 }
 
 .about .about-img .info{
