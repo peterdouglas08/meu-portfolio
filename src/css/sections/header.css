@@ -18,7 +18,7 @@
 
 .intro .logo img:hover{
     transition: 0.3s ease-in-out;
-    box-shadow: 0px 0px 30px 10px var(--color-two);
+    box-shadow: 0px 0px 25px 2px var(--color-two);
 }
 
 /* MENU HAMBURGUER */
@@ -130,7 +130,7 @@
 
 /* RESPONSIVE */
 
-@media(max-width: 1100px){
+@media(max-width: 1280px){
     
     .intro .container .menu{
         display: block;

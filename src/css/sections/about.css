@@ -3,6 +3,11 @@
     margin-top: 10%;
 }
 
+.about .container{
+    display: flex;
+    justify-content: center;
+}
+
 .about .container .about-title h2{
     font-size: var(--font-extra-large);
     color: var(--color-three);
@@ -11,43 +16,43 @@
     text-align: center;
 }
 
-.about .container .about-img{
+.about .container .about-box{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 100px;
 }
 
-.about .about-img .photo img{
-    min-width: 140%;
+.about .about-box .photo img{
+    min-width: 100%;
     padding-top: 10px;
     border: 3px solid var(--color-five);
     border-radius: 15px;
 }
 
-.about .about-img .info{
+.about .about-box .info{
     width: 50%;
 }
 
-.about .about-img .info span{
+.about .about-box .info span{
     color: var(--color-three);
     font-size: var(--font-large);
 }
 
-.about .about-img .info h1{
+.about .about-box .info h1{
     color: var(--color-two);
     font-size: var(--font-extra-large);
 }
 
-.about .about-img .info h2{
+.about .about-box .info h2{
     color: var(--color-three);
     font-size: var(--font-large);
     font-weight: 300;
     margin-bottom: 7px;
 }
 
-.about .about-img .info p{
+.about .about-box .info p{
     color: var(--color-three);  
     font-size: var(--font-medium);  
     text-align: justify;
@@ -66,4 +71,30 @@
 
 .about .info .btn-curriculo a{
     padding: 30px 10px;
+}
+
+@media (max-width: 1280px){
+
+    .about .container .about-box{
+        flex-direction: column;
+        flex: 0 0 80%;
+        width: 100%;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .about-box{
+        max-width: 100%;
+    }
+
+    .about .about-box img{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about .about-box .info{
+        width: 100%;
+        text-align: center;
+    }
 }
