@@ -53,7 +53,8 @@
 .projects .projects-container .project h3{
     color: var(--color-one);
     font-size: var(--font-medium);
-    background-color: var(--color-two);
+    font-weight: 500;
+    background-color: var(--color-four);
     position: absolute;
     bottom: 0;
     width: 100%;

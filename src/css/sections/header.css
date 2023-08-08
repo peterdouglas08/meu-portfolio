@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    border-bottom: 1px solid var(--color-two);
+    padding-bottom: 20px;
 }
 
 .intro .container .flex{
@@ -18,7 +20,7 @@
 
 .intro .logo img:hover{
     transition: 0.3s ease-in-out;
-    box-shadow: 0px 0px 25px 2px var(--color-two);
+    box-shadow: 0px 0px 25px 10px var(--color-two);
 }
 
 /* MENU HAMBURGUER */
