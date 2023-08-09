@@ -23,14 +23,36 @@
     gap: 100px;
 }
 
-.about .about-box .photo img{
-    min-width: 100%;
+.about .about-box .photo{
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 
-.about .about-box .photo img:hover{
+.about .about-box .photo img{
+    max-width: 100%;
+}
+
+.about .btn-curriculo{
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+    width: 180px;
+    height: 40px;
+    font-size: var(--font-medium);
+    font-family: var(--font-1);
+    background-color: var(--color-three);
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.about .btn-curriculo:hover{
+    background-color: var(--color-two);
     transform: scale(1.10);
     transition: 0.3s ease-in-out;
-    cursor: pointer;
 }
 
 .about .about-box .info{
@@ -60,20 +82,6 @@
     text-align: justify;
 }
 
-.about .info .btn-curriculo{
-    width: 180px;
-    height: 40px;
-    font-size: var(--font-medium);
-    font-family: var(--font-1);
-    background-color: var(--color-two);
-    border-radius: 10px;
-    border: none;
-    margin-top: 20px;
-}
-
-.about .info .btn-curriculo a{
-    padding: 30px 10px;
-}
 
 @media (max-width: 1280px){
 
@@ -93,6 +101,22 @@
     .about .about-box img{
         max-width: 100%;
         margin-bottom: 30px;
+    }
+
+    .about .btn-curriculo{
+        position: absolute;
+        bottom: 5%;
+        left: 20%;
+        width: 180px;
+        height: 40px;
+        font-size: var(--font-medium);
+        font-family: var(--font-1);
+        background-color: var(--color-three);
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+        z-index: 1;
+        cursor: pointer;
     }
 
     .about .about-box .info{

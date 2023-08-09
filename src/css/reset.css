@@ -20,7 +20,7 @@ img{
 }
 
 body{
-    background-image: url(/src/images/abstrato.jpg);
+    background-image: url(../images/abstrato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: midnightblue;
