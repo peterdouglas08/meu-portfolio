@@ -75,6 +75,7 @@
     .projects .projects-container{
         display: grid;
         grid-template-columns: repeat(2, minmax(300px, 1fr));
+        padding: 30px;
     }
 }
 @media (max-width: 780px){

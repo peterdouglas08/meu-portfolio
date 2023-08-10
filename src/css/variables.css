@@ -17,3 +17,7 @@
 :root{
     --font-family-1: 'Kanit', sans-serif;
 }
+
+:root{
+    --mobile-padding: 0 20px;
+}

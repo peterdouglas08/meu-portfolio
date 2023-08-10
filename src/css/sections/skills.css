@@ -38,3 +38,9 @@
     color: var(--color-three);
     font-size: var(--font-standart);
 }
+
+@media(max-width: 1280px){
+    .skills .container .informacoes i{
+    margin: 1%;        
+    }
+}

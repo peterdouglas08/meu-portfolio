@@ -1,9 +1,8 @@
 .intro .container{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     border-bottom: 1px solid var(--color-two);
-    padding-bottom: 20px;
+    padding: 0.5rem 10rem 2.5rem;
 }
 
 .intro .container .flex{
@@ -43,8 +42,8 @@
     background-color: var(--color-three);
     width: 30px;
     height: 2px;
-    top: 30px;
-    right: 34px;
+    top: 25px;
+    right: 27px;
     transition: .5s ease-in-out;
 }
 
@@ -133,6 +132,28 @@
 /* RESPONSIVE */
 
 @media(max-width: 1280px){
+    body{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .container{
+        padding: 0 20px;
+        width: 100vw;
+    }
+
+    .section{
+        padding: 20px 0;
+    }
+
+    .flex{
+        justify-content: center;
+    }
+
+    .intro .container .flex{
+        padding: 0;
+        margin: 0;
+    }
     
     .intro .container .menu{
         display: block;
@@ -155,11 +176,20 @@
         border-radius: 10px;
     }
 
+    .intro nav{
+        z-index: 2;
+    }
+
     .intro nav li a{
         color: var(--color-one);
         text-align: center;
         padding: 20px;
         display: block;
+        margin: 0;
+    }
+
+    .intro ul{
+        width: 150px;
     }
 
     .intro ul li a::after{

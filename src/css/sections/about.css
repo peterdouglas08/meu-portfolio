@@ -87,11 +87,11 @@
 
     .about .container .about-box{
         flex-direction: column;
-        flex: 0 0 80%;
         width: 100%;
         gap: 0px;
         justify-content: center;
         align-items: center;
+        padding: var(--mobile-padding);
     }
 
     .about .about-box{
@@ -117,6 +117,7 @@
         margin-top: 20px;
         z-index: 1;
         cursor: pointer;
+        justify-content: center;
     }
 
     .about .about-box .info{
