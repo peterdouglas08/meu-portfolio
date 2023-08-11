@@ -1,5 +1,9 @@
 .projects{
-    padding-top: 75px;
+    padding: 3% 0 5%;
+    margin-bottom: 2%;
+    background-color: var(--color-one);
+    border-top: 1px solid var(--color-two);
+    border-bottom: 1px solid var(--color-two);
 }
 
 .projects .container .section-title h2{

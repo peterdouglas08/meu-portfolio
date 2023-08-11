@@ -11,7 +11,7 @@ html{
 }
 
 .section{
-    padding: 3rem 0 10rem;
+    padding: 2rem 0 2rem;
 }
 
 .container{
@@ -37,4 +37,23 @@ html{
     margin: 0 10px;
     border-radius: 50%;
     transition: all 0.3s ease-out;
+}
+
+.arrow-up{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    animation: uparrow 0.5s infinite alternate ease-in-out;
+}
+
+.arrow-up .fa-angle-up{
+    color: var(--color-three);
+    font-size: var(--font-large);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+@-webkit-keyframes uparrow{
+    0% { -webkit-transform: translateY(0); opacity: 0.5;}
+    100% { -webkit-transform: translateY(0.5rem); opacity: 1;}
 }
