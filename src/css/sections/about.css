@@ -72,24 +72,6 @@
 .about .about-box .info h1{
     color: var(--color-two);
     font-size: var(--font-extra-large);
-    border-right: 4px solid;
-    width: 36ch;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(36), blinking 0.5s infinite step-end alternate;
-}
-
-@keyframes typing{
-    from{
-        width: 0;
-        
-    }
-}
-
-@keyframes blinking{
-    50% {
-        border-color: transparent;
-    }
 }
 
 .about .about-box .info h2{
