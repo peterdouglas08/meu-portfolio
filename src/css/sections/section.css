@@ -1,5 +1,6 @@
 section .intro-image{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -7,4 +8,10 @@ section .intro-image{
 
 section .intro-image img{
     width: 100%;
+}
+
+@media(max-width: 768px){
+    section .intro-image img{  
+        background-image: url(/src/images/capa-coding_mobile.jpg);
+    }
 }
