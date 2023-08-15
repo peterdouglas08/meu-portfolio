@@ -10,8 +10,15 @@ section .intro-image img{
     width: 100%;
 }
 
+
+@media(max-width: 1280px){
+    section .intro-image img{  
+        width: 100%;
+    }
+}
+
 @media(max-width: 768px){
     section .intro-image img{  
-        background-image: url(/src/images/capa-coding_mobile.jpg);
+        width: 80%;
     }
 }

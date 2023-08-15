@@ -131,5 +131,6 @@
 
     .about .about-box .info p{
         padding: 0 30px;
+        text-align: center;
     }
 }

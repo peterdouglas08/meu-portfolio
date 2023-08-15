@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <script src="https://kit.fontawesome.com/3a5934eb1e.js" crossorigin="anonymous"></script>
 
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
@@ -41,11 +43,11 @@
                         </div>
                     </label>
                     <ul>
-                        <li><a href="#intro">Intro</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#intro">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </nav>
                 <div class="social-media">
@@ -62,9 +64,11 @@
     </header>
 
     <section>
-        <div class="intro-image">
-            <img src="./src/images/capa-coding_desktop.jpg" alt="capa portfolio">
-        </div>
+        <picture class="intro-image">
+            <source media="(min-width: 768px)" srcset="./src/images/capa-coding_desktop.jpg" type="image/jpg">
+            <source media="(min-width: 475px)" srcset="./src/images/capa-coding_mobile.jpg" type="image/jpg">
+            <img src="./src/images/capa-coding_mobile.jpg" alt="Capa Portfólio">
+        </picture>
     </section>
 
 
@@ -80,13 +84,15 @@
                     </div> <!--fim photo-->
                     <div class="info">
                         <h1>Peter Douglas</h1>
-                        <h2>Front-end web development student</h2>
-                        <p>Atualmente sou estudante de programação e desenvolvimento web pelo curso DevQuest. Adoro escrever
+                        <h2>Estudante de Desenvolvimento Web</h2>
+                        <p>Atualmente sou estudante de programação e desenvolvimento web pelo curso DevQuest. Adoro
+                            escrever
                             códigos limpos e reutilizáveis, além de criar
                             interfaces que facilitam o manuseio pelos usuários.
                             <br>
                             <br>
-                            Sou publicitário e penso na possibilidade
+                            Sou bacharel em Comunicação Social (hab. em Publicidade e Propaganda) e penso na
+                            possibilidade
                             de fazer uma nova graduação na área de tecnologia, que vejo como a minha verdadeira
                             vocação. Desejo trabalhar como
                             Desenvolvedor Full Stack de preferência no ramo de jogos digitais ou
@@ -106,7 +112,7 @@
         <section class="skills section" id="skills">
             <div class="container">
                 <div class="skills-title">
-                    <h2>Skills</h2>
+                    <h2>Habilidades</h2>
                 </div> <!--fim skills-title-->
                 <div class="flex">
                     <div class="informacoes html">
@@ -114,7 +120,7 @@
                             <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
                         </div> <!--fim logo html-->
                         <h3>HTML5</h3>
-                        <p>Conhecimento básico</p>
+                        <p>Conhecimento avançado</p>
                     </div> <!--fim informacoes html-->
 
                     <div class="informacoes css">
@@ -122,7 +128,7 @@
                             <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
                         </div> <!--fim logo css-->
                         <h3>CSS3</h3>
-                        <p>Conhecimento básico</p>
+                        <p>Conhecimento avançado</p>
                     </div> <!--fim informacoes css-->
 
                     <div class="informacoes javascript">
@@ -138,7 +144,7 @@
                             <i class="devicon devicon-git-plain" id="git"></i>
                         </div> <!--fim logo git-->
                         <h3>Git</h3>
-                        <p>Conhecimento básico</p>
+                        <p>Conhecimento intermediário</p>
                     </div> <!--fim informacoes git-->
 
                     <div class="informacoes github">
@@ -148,6 +154,14 @@
                         <h3>GitHub</h3>
                         <p>Conhecimento básico</p>
                     </div> <!--fim informacoes github-->
+
+                    <div class="informacoes vscode">
+                        <div class="logo">
+                            <i class="devicon-vscode-plain" id="vscode"></i>
+                        </div> <!--fim logo vscode-->
+                        <h3>VsCode</h3>
+                        <p>Conhecimento intermediário</p>
+                    </div> <!--fim informacoes vscode-->
                 </div> <!--fim flex-->
             </div> <!--fim container-->
 
@@ -157,7 +171,7 @@
         <section class="projects section" id="projects">
             <div class="container">
                 <div class="section-title">
-                    <h2>Projects</h2>
+                    <h2>Projetos</h2>
                 </div> <!--fim section-title-->
                 <div class="flex">
                     <div class="projects-container">
