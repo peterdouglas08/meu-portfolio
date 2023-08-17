@@ -40,4 +40,8 @@
     .skills .container .informacoes i{
     margin: 1%;        
     }
+
+    .skills .container .skills-title h2{
+        font-size: var(--font-large);
+    }
 }

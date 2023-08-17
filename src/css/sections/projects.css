@@ -79,8 +79,12 @@
     .projects .projects-container{
         display: grid;
         grid-template-columns: repeat(2, minmax(300px, 1fr));
-        padding: 30px;
         margin: 0 5%;
+    }
+
+    .projects .container .section-title h2{
+        font-size: var(--font-large);
+        margin-top: 30px;
     }
 }
 @media (max-width: 780px){
