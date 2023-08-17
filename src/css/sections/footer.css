@@ -1,15 +1,90 @@
 .footer{
     background-color: var(--color-two);
-    text-align: center;
     padding: 50px 0px;
+}
 
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer .container h2{
+    text-align: center;
     color: var(--color-one);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+.box-message .botoes-form{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    border-radius: 10px;
+    border: 2px solid var(--color-three);
+}
+
+legend{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 0 20px;
+}
+
+label{
+    font-size: var(--font-standart);
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+input{
+    padding-left: 10px;
+    font-family: var(--font-family-1);
+    font-weight: 300;
+    font-size: var(--font-medium);
+}
+
+fieldset input{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin: 0 20px;
+    background-color: var(--color-three);
+    border: none;
+}
+
+textarea{
+    display: flex;
+    width: 92.5%;
+    margin: 0 20px 20px;
+    background-color: var(--color-three);
+    border: none;
+    font-family: var(--font-family-1);
+    font-weight: 300;
+}
+
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: var(--font-family-1);
+    font-weight: 300;
+    font-size: var(--font-medium);
+}
+
+.botoes-form input{
+    font-size: var(--font-standart);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.botoes-form input:hover{
+    background-color: var(--color-four);
 }
 
 .footer .container .social-media{
@@ -29,4 +104,12 @@
 .footer .container p{
     font-size: var(--font-standart);
     margin-top: 20px;
+}
+
+.box-social-copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
 }

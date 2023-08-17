@@ -234,17 +234,53 @@
 
     <footer class="footer section" id="contact">
         <div class="container">
-            <h2>Envie uma mensagem:</h2>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/peterdouglas20/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.github.com/peterdouglas08" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/peterdouglasbr" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5531995547786" target="_blank"><i
-                        class="fab fa-whatsapp"></i></a>
-            </div> <!--fim social-media-->
-            <p>© Peter Douglas 2023</p>
-        </div> <!--fim container-->
+            <div class="box-message">
+                <h2>Envie uma mensagem:</h2>
+                <form action="index.html" method="get" autocomplete="on">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <p>
+                            <label for="name">Nome:</label>
+                            <input type="text" name="nome" id="name" placeholder="Digite o seu nome" minlength="5"
+                                maxlength="53" required>
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail" minlength="5"
+                                maxlength="53" required>
+                        </p>
+                        <p>
+                            <label for="phone">Telefone:</label>
+                            <input type="tel" name="telefone" id="phone" placeholder="(xx) xxxxx-xxxx"
+                                autocomplete="tel" pattern="^\(\d{2}\) \d{4,5}-\d{4}$" required>
+                        </p>
+                        <p>
+                            <label for="message">Mensagem:</label>
+                            <textarea name="mensagem" cols="20" rows="10" placeholder="Digite a sua mensagem"
+                                required></textarea>
+                        </p>
+                    </fieldset>
+                    <p class="botoes-form">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </form> <!-- fim formulário -->
+            </div>
+            <div class="box-social-copy">
+                <div class="copy">
+                    <p>© Peter Douglas 2023</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/peterdouglas20/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.github.com/peterdouglas08" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/peterdouglasbr" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5531995547786" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div> <!--fim social-media-->
+            </div> <!--fim container-->
+        </div>
     </footer>
 
     <script type="text/javascript" src="./src/js/slider.js"></script>
