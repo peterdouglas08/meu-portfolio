@@ -1,12 +1,12 @@
 .footer{
     background-color: var(--color-two);
-    padding: 50px 0px;
+    padding: 50px 0px 25px;
 }
 
 .footer .container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -49,8 +49,8 @@ input{
 
 fieldset input{
     display: flex;
-    width: 500px;
-    height: 50px;
+    width: 90%;
+    height: 40px;
     margin: 0 20px;
     background-color: var(--color-three);
     border: none;
@@ -58,7 +58,7 @@ fieldset input{
 
 textarea{
     display: flex;
-    width: 92.5%;
+    width: 90%;
     margin: 0 20px 20px;
     background-color: var(--color-three);
     border: none;
@@ -76,15 +76,20 @@ textarea{
 
 .botoes-form input{
     font-size: var(--font-standart);
+    font-weight: 400;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     margin: 0 10px;
     cursor: pointer;
+    background-color: var(--color-three);
 }
 
 .botoes-form input:hover{
-    background-color: var(--color-four);
+    background-color: var(--color-one);
+    color: var(--color-two);
+    transform: scale(1.10);
+    transition: 0.3s ease-in-out;
 }
 
 .footer .container .social-media{
@@ -103,13 +108,34 @@ textarea{
 
 .footer .container p{
     font-size: var(--font-standart);
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.box-social-copy{
+.box-media-copy{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     margin-top: 30px;
+    gap: 30px;
+}
+
+.box-media-copy .copy p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media(max-width: 1280px){
+    .footer .container{
+        padding: 0 70px;
+    }
+
+    .box-media-copy{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .box-media-copy .copy p{
+        margin-top: -10px;
+    }
 }
