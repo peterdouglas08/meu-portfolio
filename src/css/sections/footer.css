@@ -15,7 +15,7 @@
     color: var(--color-one);
     font-size: 2.5rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .box-message .botoes-form{
@@ -30,8 +30,8 @@ fieldset{
 
 legend{
     text-align: center;
-    font-size: 2.4rem;
-    padding: 0 20px;
+    font-size: 2rem;
+    padding: 0 10px;
 }
 
 label{
@@ -116,13 +116,13 @@ textarea{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     gap: 30px;
 }
 
 .box-media-copy .copy p{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 @media(max-width: 1280px){
