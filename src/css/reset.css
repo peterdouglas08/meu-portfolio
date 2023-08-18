@@ -26,3 +26,12 @@ body{
     background-color: midnightblue;
     background-blend-mode: darken;
 }
+
+dd{
+    margin-inline-start: 0;
+}
+
+.progress{
+    -webkit-appearance: none;
+    box-sizing: border-box;
+}
