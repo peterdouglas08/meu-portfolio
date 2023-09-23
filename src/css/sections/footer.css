@@ -26,6 +26,7 @@
 fieldset{
     border-radius: 10px;
     border: 2px solid var(--color-three);
+    padding-bottom: 10px;
 }
 
 legend{
@@ -59,38 +60,59 @@ fieldset input{
 textarea{
     display: flex;
     width: 90%;
-    margin: 0 20px 20px;
+    margin: 0 20px;
     background-color: var(--color-three);
     border: none;
     font-family: var(--font-family-1);
     font-weight: 300;
-}
-
-textarea{
     padding-left: 10px;
     padding-top: 10px;
     font-family: var(--font-family-1);
     font-weight: 300;
     font-size: var(--font-medium);
-}
+    resize: none;
+    }
 
-.botoes-form input{
+.botoes-form .botao{
     font-size: var(--font-standart);
     font-weight: 400;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
-    margin: 0 10px;
+    margin: 10px 10px;
     cursor: pointer;
     background-color: var(--color-three);
 }
 
-.botoes-form input:hover{
+.botoes-form .botao:hover{
     background-color: var(--color-one);
     color: var(--color-two);
     transform: scale(1.10);
     transition: 0.3s ease-in-out;
 }
+
+/* ESTILIZANDO INPUTS E CAMPO OBRIGATÓRIO */
+
+.form .dados.aceito {
+    background-color: rgba(15, 221, 15, 0.5);
+    color: var(--color-three);
+}
+
+.form .dados.recusado {
+    background-color: rgb(241, 11, 11, 0.5);
+    color: var(--color-three);
+}
+
+.form .alertaOn {
+    margin: 0 20px;
+    color: rgb(241, 11, 11);
+}
+
+.form .alertaOff{
+    opacity: 0;
+}
+
+/* REDES SOCIAIS */
 
 .footer .container .social-media{
     display: flex;

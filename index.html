@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="./src/css/sections/footer.css">
 
     <!-- Script icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <script src="https://kit.fontawesome.com/3a5934eb1e.js" crossorigin="anonymous"></script>
 
     <!-- Devicon -->
@@ -248,34 +247,38 @@
         <div class="container">
             <div class="box-message">
                 <h2>Envie uma mensagem:</h2>
-                <form action="index.html" method="get" autocomplete="on">
+                <form class="form" id="form" action="index.html" method="get" autocomplete="on">
                     <fieldset>
                         <legend>Dados pessoais</legend>
                         <p>
                             <label for="name">Nome:</label>
-                            <input type="text" name="nome" id="name" placeholder="Digite o seu nome" minlength="5"
-                                maxlength="53" required>
+                            <input type="text" name="nome" class="dados" id="nome" placeholder="Digite o seu nome" minlength="5"
+                                maxlength="53">
                         </p>
+                        <span class="alertaOn alertaOff">*Campo obrigatório</span>
                         <p>
                             <label for="email">E-mail:</label>
-                            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail" minlength="5"
-                                maxlength="53" required>
+                            <input type="text" name="email" class="dados" id="email" placeholder="Digite o seu e-mail" minlength="5"
+                                maxlength="53">
                         </p>
+                        <span class="alertaOn alertaOff">*Campo obrigatório</span>
                         <p>
                             <label for="phone">Telefone:</label>
-                            <input type="tel" name="telefone" id="phone" placeholder="(xx) xxxxx-xxxx"
-                                autocomplete="tel" pattern="^\(\d{2}\) \d{4,5}-\d{4}$" required>
+                            <input type="tel" name="telefone" class="dados" id="telefone" placeholder="(xx) xxxxx-xxxx"
+                                autocomplete="tel" pattern="^\(\d{2}\) \d{4,5}-\d{4}$">
                         </p>
+                        <span class="alertaOn alertaOff">*Campo obrigatório</span>
                         <p>
                             <label for="message">Mensagem:</label>
-                            <textarea name="mensagem" cols="37" rows="5" placeholder="Digite a sua mensagem"
-                                required></textarea>
+                            <textarea name="mensagem" class="dados" id="mensagem" cols="37" rows="5" placeholder="Digite a sua mensagem"
+                                ></textarea>
                         </p>
+                        <span class="alertaOn alertaOff">*Campo obrigatório</span>
                     </fieldset>
-                    <p class="botoes-form">
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar">
-                    </p>
+                    <div id="botoes" class="botoes-form">
+                        <button class="botao btn-enviar" type="button" value="Enviar">Enviar</button>
+                        <button class="botao" type="reset" value="Limpar">Limpar</button>
+                    </div>
                 </form> <!-- fim formulário -->
             </div>
             <div class="box-media-copy">
@@ -295,7 +298,7 @@
         </div> <!--fim container-->
     </footer>
 
-    <script type="text/javascript" src="./src/js/slider.js"></script>
+    <script type="text/javascript" src="./src/js/form.js"></script>
 </body>
 
 </html>
