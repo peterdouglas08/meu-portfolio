@@ -93,12 +93,12 @@ textarea{
 
 /* ESTILIZANDO INPUTS E CAMPO OBRIGATÓRIO */
 
-.form .dados.aceito {
+.form .aceito {
     background-color: rgba(15, 221, 15, 0.5);
     color: var(--color-three);
 }
 
-.form .dados.recusado {
+.form .recusado {
     background-color: rgb(241, 11, 11, 0.5);
     color: var(--color-three);
 }
