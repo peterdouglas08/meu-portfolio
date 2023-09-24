@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--color-two);
+    background-color: var(--color-three);
     padding: 50px 0px 25px;
 }
 
@@ -25,7 +25,7 @@
 
 fieldset{
     border-radius: 10px;
-    border: 2px solid var(--color-three);
+    border: 2px solid var(--color-four);
     padding-bottom: 10px;
 }
 
@@ -53,7 +53,7 @@ fieldset input{
     width: 90%;
     height: 40px;
     margin: 0 20px;
-    background-color: var(--color-three);
+    background-color: var(--color-four);
     border: none;
 }
 
@@ -61,7 +61,7 @@ textarea{
     display: flex;
     width: 90%;
     margin: 0 20px;
-    background-color: var(--color-three);
+    background-color: var(--color-four);
     border: none;
     font-family: var(--font-family-1);
     font-weight: 300;
@@ -81,12 +81,12 @@ textarea{
     padding: 5px 10px;
     margin: 10px 10px;
     cursor: pointer;
-    background-color: var(--color-three);
+    background-color: var(--color-four);
 }
 
 .botoes-form .botao:hover{
-    background-color: var(--color-one);
-    color: var(--color-two);
+    background-color: var(--color-five);
+    color: var(--color-three);
     transform: scale(1.10);
     transition: 0.3s ease-in-out;
 }
@@ -120,7 +120,7 @@ textarea{
 }
 
 .footer .container .social-media a{
-    color: #bd9f32;
+    color: var(--color-four);
 }
 
 .footer .container .social-media a:hover{

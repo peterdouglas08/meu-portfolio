@@ -28,11 +28,11 @@
 </head>
 
 <body>
-    <header class="intro section" id="intro">
+    <header class="intro section" id="about">
         <div class="container">
             <div class="flex">
                 <div class="logo">
-                    <a href="#about"><img src="src/images/logo-black.svg" alt="logo Peter Douglas"></a>
+                        <img src="src/images/logo-black.svg" alt="logo Peter Douglas">
                 </div> <!--fim logo-->
                 <nav>
                     <input id="menu-hamburguer" type="checkbox" />
@@ -42,7 +42,6 @@
                         </div>
                     </label>
                     <ul>
-                        <li><a href="#intro">Início</a></li>
                         <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#skills">Habilidades</a></li>
                         <li><a href="#projects">Projetos</a></li>
@@ -62,52 +61,43 @@
         </div> <!--fim container-->
     </header>
 
-    <section>
-        <picture class="intro-image">
-            <source media="(min-width: 768px)" srcset="./src/images/capa-coding_desktop.jpg" type="image/jpg">
-            <source media="(min-width: 475px)" srcset="./src/images/capa-coding_mobile.jpg" type="image/jpg">
-            <img src="./src/images/capa-coding_mobile.jpg" alt="Capa Portfólio">
-        </picture>
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-box">
+                <div class="photo">
+                    <img src="./src/images/foto-about-white.png" alt="Peter Douglas">
+                    <a href="./src/curriculo/peter-douglas-csc_dev-front-end-jr.pdf"
+                        download="peter-douglas-csc_dev-front-end-jr.pdf"><button class="btn-curriculo">Download
+                            CV</button></a>
+                </div> <!--fim photo-->
+                <div class="info">
+                    <h1>Peter Douglas</h1>
+                    <h2>Estudante de Desenvolvimento Web</h2>
+                    <p>Atualmente sou estudante de programação e desenvolvimento web pelo curso DevQuest. Adoro
+                        escrever
+                        códigos limpos e reutilizáveis, além de criar
+                        interfaces que facilitam o manuseio pelos usuários.
+                        <br>
+                        <br>
+                        Sou bacharel em Comunicação Social (hab. em Publicidade e Propaganda) e penso na
+                        possibilidade
+                        de fazer uma nova graduação na área de tecnologia, que vejo como a minha verdadeira
+                        vocação. Desejo trabalhar como
+                        Desenvolvedor Full Stack de preferência no ramo de jogos digitais ou
+                        aplicativos mobile, mas aberto a construção de sites profissionais.
+                        <br>
+                        <br>
+                        Quando não estou na frente do computador, provavelmente me achará passeando com o
+                        meu cachorro, fazendo exercícios na academia, assistindo
+                        a uma boa partida de futebol ou jogando meu game favorito, o 'Call of Duty Warzone'.
+                    </p>
+                </div> <!--fim info-->
+            </div> <!--fim about-img-->
+        </div> <!--fim container-->
     </section>
 
 
     <main>
-        <section class="about section" id="about">
-            <div class="container">
-                <div class="about-box">
-                    <div class="photo">
-                        <img src="./src/images/about-photo.png" alt="Peter Douglas">
-                        <a href="./src/curriculo/peter-douglas-csc_dev-front-end-jr.pdf"
-                            download="peter-douglas-csc_dev-front-end-jr.pdf"><button class="btn-curriculo">Download
-                                CV</button></a>
-                    </div> <!--fim photo-->
-                    <div class="info">
-                        <h1>Peter Douglas</h1>
-                        <h2>Estudante de Desenvolvimento Web</h2>
-                        <p>Atualmente sou estudante de programação e desenvolvimento web pelo curso DevQuest. Adoro
-                            escrever
-                            códigos limpos e reutilizáveis, além de criar
-                            interfaces que facilitam o manuseio pelos usuários.
-                            <br>
-                            <br>
-                            Sou bacharel em Comunicação Social (hab. em Publicidade e Propaganda) e penso na
-                            possibilidade
-                            de fazer uma nova graduação na área de tecnologia, que vejo como a minha verdadeira
-                            vocação. Desejo trabalhar como
-                            Desenvolvedor Full Stack de preferência no ramo de jogos digitais ou
-                            aplicativos mobile, mas aberto a construção de sites profissionais.
-                            <br>
-                            <br>
-                            Quando não estou na frente do computador, provavelmente me achará passeando com o
-                            meu cachorro, fazendo exercícios na academia, assistindo
-                            a uma boa partida de futebol ou jogando meu game favorito, o 'Call of Duty Warzone'.
-                        </p>
-                    </div> <!--fim info-->
-                </div> <!--fim about-img-->
-            </div> <!--fim container-->
-        </section>
-
-
         <section class="skills section" id="skills">
             <div class="container">
                 <div class="skills-title">
@@ -237,8 +227,8 @@
     </main>
 
     <div>
-        <div class="arrow-up" id="intro">
-            <a href="#intro"><i class="fa-solid fa-angle-up"></i></a>
+        <div class="arrow-up" id="about">
+            <a href="#about"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </div>
 
