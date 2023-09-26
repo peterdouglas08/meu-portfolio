@@ -93,3 +93,20 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 375px){
+    .projects .projects-container{
+        grid-gap: 10px;
+        text-align: center;
+    }
+
+    .projects .projects-container .project img{
+        height: 79%;
+    }
+    .projects .projects-container .project h3{
+        position: absolute;
+        width: 80%;
+        bottom: 15%;
+        left: 10%
+    }
+}

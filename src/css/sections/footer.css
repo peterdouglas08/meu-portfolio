@@ -15,7 +15,7 @@
     color: var(--color-one);
     font-size: 2.5rem;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .box-message .botoes-form{
@@ -26,13 +26,13 @@
 fieldset{
     border-radius: 10px;
     border: 2px solid var(--color-four);
-    padding-bottom: 10px;
 }
 
 legend{
     text-align: center;
     font-size: 2rem;
     padding: 0 10px;
+    margin-bottom: 15px;
 }
 
 label{
@@ -130,7 +130,6 @@ textarea{
 
 .footer .container p{
     font-size: var(--font-standart);
-    margin-top: 15px;
 }
 
 .box-media-copy{
@@ -138,7 +137,6 @@ textarea{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 50px;
     gap: 30px;
 }
 
@@ -154,11 +152,41 @@ textarea{
 
     .box-media-copy{
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .box-media-copy .copy p{
         margin-top: -10px;
         font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 425px){
+    fieldset input{
+        width: 88%;
+    }
+    
+    textarea{
+        width: 88%;
+    }
+}
+
+@media(max-width: 375px){
+    fieldset input{
+        width: 86%;
+    }
+    
+    textarea{
+        width: 86%;
+    }
+}
+
+@media(max-width: 320px){
+    fieldset input{
+        width: 84%;
+    }
+    
+    textarea{
+        width: 84%;
     }
 }
