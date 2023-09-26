@@ -190,3 +190,13 @@ textarea{
         width: 84%;
     }
 }
+
+@media(max-width: 285px){
+    fieldset input{
+        width: 82%;
+    }
+    
+    textarea{
+        width: 82%;
+    }
+}
