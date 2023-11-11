@@ -11,14 +11,8 @@
 }
 
 .intro .logo img{
-    width: 70px;
-    background-color: var(--color-two);
-    border-radius: 50%;
+    width: 80px;
     transition: 0.3s ease-in-out;
-}
-
-.intro .logo img:hover{
-    box-shadow: 0px 0px 15px 10px var(--color-two);
 }
 
 /* MENU HAMBURGUER */
@@ -112,7 +106,7 @@
     left: 0%;
     width: 100%;
     transition: .5s;
-    background-color: var(--color-two);
+    background-color: var(--color-logo);
 }
 
 .intro .container nav li a:active{

@@ -20,11 +20,9 @@ img{
 }
 
 body{
-    background-image: url(../images/abstrato.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: midnightblue;
-    background-blend-mode: darken;
+    background-image: url(../images/dark-green-background.jpg);
+    background-color: darkgreen;
+    background-blend-mode: multiply;
 }
 
 dd{

@@ -85,22 +85,18 @@ textarea{
 }
 
 .botoes-form .botao:hover{
-    background-color: var(--color-five);
-    color: var(--color-three);
+    background-color: var(--color-logo);
     transform: scale(1.10);
-    transition: 0.3s ease-in-out;
 }
 
 /* ESTILIZANDO INPUTS E CAMPO OBRIGATÓRIO */
 
 .form .aceito {
     background-color: rgba(15, 221, 15, 0.5);
-    color: var(--color-three);
 }
 
 .form .recusado {
     background-color: rgb(241, 11, 11, 0.5);
-    color: var(--color-three);
 }
 
 .form .alertaOn {

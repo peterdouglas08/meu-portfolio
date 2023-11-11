@@ -7,7 +7,7 @@
 }
 
 .projects .container .section-title h2{
-    color: var(--color-three);
+    color: var(--color-logo);
     font-size: var(--font-extra-large);
     text-align: center;
     margin-bottom: 50px;
