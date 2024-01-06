@@ -18,7 +18,7 @@
     border-radius: 10px;
     padding: 20px;
     margin: 40px;
-    width: 350px;
+    width: 300px;
 }
 
 .skills .container .informacoes i{
@@ -35,13 +35,6 @@
 .skills .container .informacoes p{
     color: var(--color-three);
     font-size: var(--font-standart);
-}
-
-.skills .container .informacoes .progress-bar{
-    border: none;
-    width: 150px;
-    height: 10px;
-    border-radius: 50px;
 }
 
 .skills .container .informacoes .progress-bar::-webkit-progress-bar{
