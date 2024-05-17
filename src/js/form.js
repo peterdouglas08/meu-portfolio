@@ -3,19 +3,19 @@ const botaoForm = document.getElementById("botao-enviar");
 const botaoLimpar = document.getElementById("botao-limpar")
 
 /* DEIXA OS INPUTS NA COR VERDE AO DIGITAR */
-// dadosUsuario.forEach(input => {
-//   input.addEventListener("input", () => {
-//     if (input.value) {
-//       input.classList.add("aceito");
-//       input.classList.remove("recusado");
-//       input.nextElementSibling.classList.add("alertaOff");
-//     } else {
-//       input.classList.remove("aceito");
-//       input.classList.add("recusado");
-//       input.nextElementSibling.classList.remove("alertaOff");
-//     }
-//   });
-// });
+dadosUsuario.forEach(input => {
+  input.addEventListener("input", () => {
+    if (input.value) {
+      input.classList.add("aceito");
+      input.classList.remove("recusado");
+      input.nextElementSibling.classList.add("alertaOff");
+    } else {
+      input.classList.remove("aceito");
+      input.classList.add("recusado");
+      input.nextElementSibling.classList.remove("alertaOff");
+    }
+  });
+});
 
 /* DEIXA O FORM VERDE, DEPOIS DE ENVIAR OS DADOS CORRETAMENTE */
 botaoForm.addEventListener("click", (event) => {
